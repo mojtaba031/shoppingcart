@@ -1,0 +1,20 @@
+{
+    "name": "mir/shoppingcart",
+    "description": "package for manage sms with ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mojtaba shafizadeh",
+            "email": "mojtaba031@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mir\\Shopping\\Cart\\": "src/"
+        }
+    }
+}
